@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Detalhes do Chamado</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .container label {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    .container input[type="text"],
+    .container textarea {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      resize: vertical;
+    }
+
+    .container textarea {
+      height: 120px;
+    }
+
+    .container button {
+      padding: 10px 20px;
+      border: none;
+      background-color: #f06922;
+      color: #FFF;
+      font-size: 18px;
+      text-decoration: none;
+      margin-top: 10px;
+      border-radius: 5px;
+    }
+
+    .container button:hover {
+      background-color: #e0560e;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Detalhes do Chamado</h1>
+    <form action="agradecimento.html" method="post">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" maxlength="100" required>
+
+      <hr>
+
+      <label for="contato">Contato:</label>
+      <input type="text" id="contato" name="contato" maxlength="20" required>
+
+      <hr>
+
+      <label for="funcional">Funcional:</label>
+      <input type="text" id="funcional" name="funcional" maxlength="10" required>
+
+      <hr>
+
+      <label for="detalhes">Detalhes do Chamado:</label>
+      <textarea id="detalhes" name="detalhes" maxlength="200" required></textarea>
+
+      <hr>
+
+      <button type="submit" class="button">Enviar</button>
+    </form>
+  </div>
+
+  <br>
+  <br>
+  <div class="container">
+    <a href="index.html" class="button-voltar">&lt; Voltar</a>
+
+  </div>
+</body>
+</html>

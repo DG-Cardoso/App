@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Página Inicial</title>
+  <style>
+    body {
+      background-color: #FFF;
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      text-align: center;
+      padding-top: 30px;
+    }
+
+    h1 {
+      color: #f06922;
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      border: none;
+      background-color: #f06922;
+      color: #FFF;
+      font-size: 18px;
+      text-decoration: none;
+      margin: 5px;
+      border-radius: 5px;
+      width: 100%;
+      max-width: 400px;
+    }
+
+    .button:hover {
+      background-color: #e0560e;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Chamados de Manutenção e Limpeza</h1>
+    <p>Escolha o prédio:</p>
+    <a href="ct1_andares.html" class="button">CT I</a>
+    <a href="ct2_estacionamentos.html" class="button">CT II</a>
+    <a href="ct3_andares.html" class="button">CT III</a>
+    <br>
+    <br>
+    <a href="http://www.itau.com.br" target="_blank"><img src="logo_itau.png" alt="Logo Itaú"></
+
+.center-text {
+  text-align: center;
+}
+
+.button-voltar {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  background-color: #004f99; /* Cor azul do Itaú */
+  color: #FFF;
+  font-size: 16px;
+  text-decoration: none;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.button-voltar:hover {
+  background-color: #003366; /* Cor azul mais escura no hover */
+  cursor: pointer;
+}
